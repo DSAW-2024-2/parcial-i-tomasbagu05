@@ -5,27 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Parcial 1</title>
 
 
 </head>
 <body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <div class="container">
+    <div class="article-preview">
+        <div class="image-container">
+            <img src="\images\drawers.jpg" alt="Article Image">
+        </div>
+        <div class="content">
+            <h3 class="title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h3>
+            <p class="description">Ever been in a room and felt like something was missing? Perhaps it’s the right colors and furniture. We’ve got some simple tips to help you make any room feel complete.</p>
+            <div class="author-share-container">
+              <div class="author">
+                  <img src="\images\avatar-michelle.jpg" alt="Author Image">
+                  <div class="author-info">
+                      <span class="name">Michelle Appleton</span>
+                      <span class="date">28 Jun 2020</span>
+                  </div>
+              </div>
+              <div class="share-icon">
+                  <img src="images/icon-share.svg" alt="Share" onclick="togglePopup()">
+              </div>
+          </div>
+          <div class="share-popup" id="sharePopup">
+              <div class="popup-content">
+                  <div class="social-icons">
+                      <img src="images/icon-facebook.svg" alt="Facebook">
+                      <img src="images/icon-twitter.svg" alt="Twitter">
+                      <img src="images/icon-pinterest.svg" alt="Pinterest">
+                  </div>
+              </div>
+              <div class="popup-arrow"></div>
+          </div>
+        </div>
+    </div>
+</div>
+  <script src="script.js"></script>
 </body>
 </html>
